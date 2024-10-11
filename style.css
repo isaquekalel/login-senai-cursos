@@ -1,0 +1,27 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carrossel {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* Ajuste conforme necessário */
+    border: 1px solid #ccc;
+}
+
+.card {
+    min-width: 300px; /* A mesma largura da carrossel */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease; /* Animação suave */
+}
+
+button {
+    margin-top: 10px;
+}
